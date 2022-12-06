@@ -1,0 +1,81 @@
+{
+  "showings":[
+       {
+          "_id": {
+            "$oid": "638d88b9e288118683d4e30a"
+          },
+          "theaterId": {
+            "$oid": "638d82fee288118683d4e2ff"
+          },
+          "filmId": {
+            "$oid": "638d852be288118683d4e302"
+          },
+          "showTime": {
+            "$date": {
+              "$numberLong": "1668095100000"
+            }
+          },
+          "format": "Standard",
+          "tickets": [
+            {
+              "_id": {
+                "$oid": "3c4f626a656374496428293e"
+              },
+              "price": 18,
+              "seatNumber": "1"
+            }
+          ]
+       },
+       {
+          "_id": {
+            "$oid": "638d8a3ee288118683d4e311"
+          },
+          "theaterId": {
+            "$oid": "638d82fee288118683d4e2ff"
+          },
+          "filmId": {
+            "$oid": "638d852be288118683d4e302"
+          },
+          "showTime": {
+            "$date": {
+              "$numberLong": "1668106800000"
+            }
+          },
+          "format": "IMAX",
+          "tickets": [
+            {
+              "_id": {
+                "$oid": "3c4f626a656374496428293e"
+              },
+              "price": 22,
+              "seatNumber": "1"
+            },
+            {
+              "_id": {
+                "$oid": "3c4f626a656374496428293e"
+              },
+              "price": 15,
+              "seatNumber": "5"
+            }
+          ]
+      },
+      {
+          "_id": {
+            "$oid": "638d8aa6e288118683d4e312"
+          },
+          "theaterId": {
+            "$oid": "638d82fee288118683d4e2ff"
+          },
+          "filmId": {
+            "$oid": "638d852be288118683d4e302"
+          },
+          "showTime": {
+            "$date": {
+              "$numberLong": "1668085200000"
+            }
+          },
+          "format": "Standard",
+          "tickets": []
+        }
+    ]
+}
